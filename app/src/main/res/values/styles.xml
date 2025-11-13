@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <!-- Base set of styles that apply to all versions. -->
+        <style name="BaseAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+            <item name="android:textSize">20sp</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:textAlignment">center</item>
+            <item name="android:gravity">center</item>
+            <item name="android:layout_gravity">center</item>
+
+            <item name="android:textColor">#FFFFFF</item>
+        </style>
+
+        <!-- Declare the theme name that's actually applied in the manifest file. -->
+        <style name="Button" parent="BaseAppTheme">
+            <item name="android:textColor">#000000</item>
+
+        </style>
+
+
+</resources>
